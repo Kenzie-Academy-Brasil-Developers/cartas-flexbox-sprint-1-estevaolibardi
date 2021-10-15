@@ -76,10 +76,10 @@ html {
     }
 
     @media only screen and (max-width:320px){
-      div{
-        background:#E4F9F5;
-        font-weight: bold;
-        
+      .cardGroup{
+       display:flex;
+       flex-direction: column;
+       background:#E4F9F5;
+      font-weight: bold;
       }
-
     }
